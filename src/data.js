@@ -1,0 +1,38 @@
+export const Projects = [
+  {
+    id: "project1",
+    title: "project1",
+    image: require("./images/project1.jpeg"),
+    description: "This is a description",
+    technos: "React",
+    webpage: "example.com",
+    github: "www.github/lizzieb1416",
+  },
+  {
+    id: "project2",
+    title: "project2",
+    image: require("./images/project2.jpeg"),
+    description: "This is a description",
+    technos: "React",
+    webpage: "example.com",
+    github: "www.github/lizzieb1416",
+  },
+  {
+    id: "project3",
+    title: "project3",
+    image: require("./images/project3.jpeg"),
+    description: "This is a description",
+    technos: "React",
+    webpage: "example.com",
+    github: "www.github/lizzieb1416",
+  },
+  {
+    id: "project4",
+    title: "project4",
+    image: require("./images/project4.jpeg"),
+    description: "This is a description",
+    technos: "React",
+    webpage: "example.com",
+    github: "www.github/lizzieb1416",
+  },
+];

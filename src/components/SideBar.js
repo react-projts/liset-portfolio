@@ -43,6 +43,7 @@ const IconsContainer = styled.ul`
 
   img {
     width: 25px;
+    filter: brightness(0) invert(1);
   }
 `;
 

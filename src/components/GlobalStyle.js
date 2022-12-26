@@ -35,6 +35,7 @@ const GlobalStyle = createGlobalStyle`
 
     h1{
         font-weight: bold;
+        padding: 3.5rem 0rem 0.5rem;
     }
 
     p {
