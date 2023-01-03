@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
+import Button from "../components/Button";
 
 const Home = () => {
   return (
@@ -14,7 +17,9 @@ const Home = () => {
             voluptate
           </p>
         </div>
-        <button>See my projects</button>
+        <Link to="/work">
+          <Button text={"See my projects"} />
+        </Link>
       </Description>
     </Parent>
   );

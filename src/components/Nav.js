@@ -1,8 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
 const Nav = () => {
+  // const { pathname } = useLocation();
+
+  // // const [activeLink, setActiveLink] = useState(pathname);
+
+  // function handleActiveLink() {
+  //   // setActiveLink(pathname);
+  //   console.log(pathname);
+  // }
+
   return (
     <StyledNav>
       <h2>
